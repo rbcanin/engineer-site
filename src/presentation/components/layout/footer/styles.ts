@@ -45,5 +45,34 @@ export const Footer = styled("header")`
   }
 
   @media only screen and (max-width: 1600px) {
+    .links {
+      gap: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 1400px) {
+    .links {
+      gap: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .links {
+      gap: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .container {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .links {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+    }
   }
 `;

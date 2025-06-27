@@ -7,11 +7,11 @@ export function Footer() {
     <S.Footer>
       <Container>
         <div className="links font-20-bold">
-          <a href="#sobre">sobre</a>
-
           <a href="#projetos">projetos</a>
 
           <a href="#contato">contato</a>
+
+          <a href="#sobre">sobre</a>
         </div>
 
         <a

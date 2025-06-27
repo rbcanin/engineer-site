@@ -5,7 +5,13 @@ import * as S from "./styles";
 export function Projetos() {
   return (
     <S.Projetos>
-      <Container>TESTEEE</Container>
+      <Container>
+        <div>
+          <h2 className="font-80">Projetos</h2>
+
+          <div className="row"></div>
+        </div>
+      </Container>
     </S.Projetos>
   );
 }

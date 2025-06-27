@@ -6,12 +6,9 @@ export function Banner() {
   return (
     <S.Banner>
       <Container>
-        <h1 className="font-24">
-          {" "}
-          A excelência de sempre com a modernidade do agora
-        </h1>
+        <video src="images/banner.mp4" autoPlay muted loop playsInline />
 
-        <img src="images/engenharia.jpg" alt="" />
+        <h1 className="font-80"> Engenharia de projetos mecânicos</h1>
       </Container>
     </S.Banner>
   );

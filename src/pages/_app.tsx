@@ -7,6 +7,7 @@ import { InfinityForgeProviders, api } from "infinity-forge";
 import { GlobalStyles, InfinityForgeProps } from "@/presentation";
 
 import "infinity-forge/dist/infinity-forge.css";
+import Head from "next/head";
 
 export default function App({ pageProps, configs, Component }) {
   return (
@@ -32,6 +33,11 @@ export default function App({ pageProps, configs, Component }) {
       siteConfigurations={configs}
     >
       <GlobalStyles />
+
+      <Head>
+        <title>J Engenharia</title>
+        <link rel="icon" href="/images/favicon.ico" />
+      </Head>
 
       <Component {...pageProps} />
     </InfinityForgeProviders>

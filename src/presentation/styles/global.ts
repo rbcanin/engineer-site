@@ -20,6 +20,12 @@ export const GlobalStyles = createGlobalStyle`
   font-weight: 400;
 }
 
+
+html {
+  scroll-behavior: smooth;
+}
+
+
   body {
     font-family: "OutfitRegular" !important;
     overflow-x: hidden;
@@ -45,8 +51,10 @@ export const GlobalStyles = createGlobalStyle`
 
 
 .container{
-  max-width: 1750px;
+  max-width: 1650px;
   padding: 0 15px;
   margin: 0 auto;
 }
+
+
 `;
